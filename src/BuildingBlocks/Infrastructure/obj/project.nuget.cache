@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "M3hYCvZMjkAxEjEIE4JQuC2fexU1l34CYzwTFNsQWfNVUi4TZ1NceSB1pirgVeTLVcwkie5UXYM7PYrZK4Rojg==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

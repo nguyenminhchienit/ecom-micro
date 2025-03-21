@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wclQ/+LSRrr4YIrHogBVrQgQ3TWN9Y4QGpWN5MR6wt4=",
+  "Source": "ScheduledJob.API",
+  "BasePath": "_content/ScheduledJob.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
