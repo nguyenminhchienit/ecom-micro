@@ -9,3 +9,4 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Co
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Contract\obj\Debug\net6.0\refint\Contract.dll
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Contract\obj\Debug\net6.0\Contract.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Contract\obj\Debug\net6.0\ref\Contract.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Contract\obj\Debug\net6.0\Contract.sourcelink.json

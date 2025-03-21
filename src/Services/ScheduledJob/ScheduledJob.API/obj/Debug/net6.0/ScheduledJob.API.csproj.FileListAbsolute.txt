@@ -30,3 +30,4 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Schedule
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\ScheduledJob\ScheduledJob.API\obj\Debug\net6.0\ScheduledJob.API.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\ScheduledJob\ScheduledJob.API\obj\Debug\net6.0\ScheduledJob.API.genruntimeconfig.cache
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\ScheduledJob\ScheduledJob.API\obj\Debug\net6.0\ref\ScheduledJob.API.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\ScheduledJob\ScheduledJob.API\obj\Debug\net6.0\ScheduledJob.API.sourcelink.json

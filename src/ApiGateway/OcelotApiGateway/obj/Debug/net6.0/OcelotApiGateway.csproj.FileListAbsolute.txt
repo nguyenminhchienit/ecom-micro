@@ -30,3 +30,4 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\ApiGateway\Ocelot
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\ApiGateway\OcelotApiGateway\obj\Debug\net6.0\OcelotApiGateway.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\ApiGateway\OcelotApiGateway\obj\Debug\net6.0\OcelotApiGateway.genruntimeconfig.cache
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\ApiGateway\OcelotApiGateway\obj\Debug\net6.0\ref\OcelotApiGateway.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\ApiGateway\OcelotApiGateway\obj\Debug\net6.0\OcelotApiGateway.sourcelink.json
