@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TYdUw4bHP89bTPiZyCyEZtipzMMnPb63EWi1kLwpwUr/pb+9v87gm6t0/iBCv+sCE7tMQm5LwvI0sMbFn6MqUw==",
+  "dgSpecHash": "Kqj/XqC7d9J1f4uOYnafHq+POyJkZrdZlNZ20tphhRJ3jFoKxL080bMDCVfS+2rN8ln6i/khBvOy3WNU2y4IRg==",
   "success": true,
   "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
