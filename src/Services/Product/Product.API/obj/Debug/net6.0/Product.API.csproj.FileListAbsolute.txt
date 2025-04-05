@@ -59,3 +59,17 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Common.Logging.dll
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Common.Logging.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Humanizer.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\MySqlConnector.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Contract.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Contract.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Infrastructure.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Shared.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Infrastructure.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Product\Product.API\bin\Debug\net6.0\Shared.pdb
