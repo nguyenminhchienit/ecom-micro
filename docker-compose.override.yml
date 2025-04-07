@@ -32,7 +32,7 @@ services:
         - POSTGRES_DB=DiscountDb
       restart: always
       ports:
-        - "5433:5432"
+        - "5432:5432"
       volumes:
         - postgres_data:/var/lib/postgresql/data
 
@@ -63,7 +63,7 @@ services:
     pgadmin:
       container_name: pgadmin
       environment:
-        - PGADMIN_DEFAULT_EMAIL=admin@tedu_microservice.com
+        - PGADMIN_DEFAULT_EMAIL=admin@tedumicroservice.com
         - PGADMIN_DEFAULT_PASSWORD=admin1234
       restart: always
       ports:
@@ -104,3 +104,16 @@ services:
         - elasticsearch
       ports:
         - "5601:5601"
+
+    #microservices api sections
+    product.api:
+      container_name: product.api
+      environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        - ASPNETCORE_URLS=http://+:80
+        - "ConnectionStrings:DefaultConnectionString=Server=mysqldb;Port=3306;Database=ProductDB;Uid=root;Pwd=Passw0rd!;"
+      depends_on: 
+        - productdb
+      ports:
+        - "6002:80"
+      restart: always
