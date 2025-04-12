@@ -17,7 +17,7 @@ public static class ServiceExtensions
         services.Configure<RouteOptions>(options => options.LowercaseUrls = true);
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         services.AddEndpointsApiExplorer();
-        services.AddSwaggerGen();
+        //services.AddSwaggerGen();
         services.ConfigureProductDbContext(configuration);
         services.AddInfrastructureServices();
    

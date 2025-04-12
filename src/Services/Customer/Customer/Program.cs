@@ -2,6 +2,7 @@ using Common.Logging;
 using Customer.API.Extensions;
 using Customer.API.Extentions;
 using Customer.API.Persistence;
+using Customer.API.Services.Interfaces;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,10 +17,19 @@ try
     builder.Services.AddInfrastructure(builder.Configuration);
 
     var app = builder.Build();
+
+    app.MapGet("/", () => "Welcome to Ecommerce Micoservices");
+    app.MapGet("/api/customers", async (ICustomerService customerServices) 
+        => await customerServices.GetAllCustomerAsync());
+    app.MapGet("/api/customers/{username}", async (string username, ICustomerService customerServices) 
+        => await customerServices.GetCustomerByUsernameAsync(username));
+
     app.UseInfrastructure();
 
     app.MigrateDatabase<CustomerContext>()
          .Run();
+
+    
 }
 catch (Exception ex)
 {

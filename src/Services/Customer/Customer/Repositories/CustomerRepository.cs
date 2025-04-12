@@ -12,6 +12,11 @@ namespace Customer.API.Repositories
         {
         }
 
+        public async Task<List<Entities.Customer>> GetAllCustomer()
+        {
+            return await FindAll().ToListAsync(); ;
+        }
+
         public async Task<Entities.Customer> GetCustomerByUsernameAsync(string username) =>
             await FindByCondition(x => x.UserName.Equals(username))
             .SingleOrDefaultAsync();
