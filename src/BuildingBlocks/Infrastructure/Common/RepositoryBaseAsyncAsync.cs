@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 namespace Infrastructure.Common
 {
     public class RepositoryBaseAsyncAsync<T, K, TContext> : IRepositoryBaseAsync<T, K, TContext> where T : EntityBase<K>
- where TContext : DbContext
+        where TContext : DbContext
     {
         private readonly TContext _dbContext;
         private readonly IUnitOfWork<TContext> _unitOfWork;
