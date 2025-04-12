@@ -281,6 +281,16 @@
         "runtime": {
           "bin/placeholder/Contract.dll": {}
         }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
       }
     }
   },
@@ -695,12 +705,18 @@
       "type": "project",
       "path": "../Contract/Contract.csproj",
       "msbuildProject": "../Contract/Contract.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.0",
-      "Contract >= 1.0.0"
+      "Contract >= 1.0.0",
+      "Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -739,6 +755,9 @@
           "projectReferences": {
             "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
               "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj"
+            },
+            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj"
             }
           }
         }

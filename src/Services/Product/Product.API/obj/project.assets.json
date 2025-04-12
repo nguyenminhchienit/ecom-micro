@@ -851,7 +851,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.0",
-          "Contract": "1.0.0"
+          "Contract": "1.0.0",
+          "Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}

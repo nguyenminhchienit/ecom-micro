@@ -6,15 +6,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Customer.API.Repositories
 {
-    public class CustomerRepository : RepositoryBaseAsyncAsync<Entities.Customer, int, CustomerContext>, ICustomerRepository
+    public class CustomerRepository : RepositoryQueryBase<Entities.Customer, int, CustomerContext>, ICustomerRepository
     {
-        public CustomerRepository(CustomerContext dbContext, IUnitOfWork<CustomerContext> unitOfWork) : base(dbContext, unitOfWork)
+        public CustomerRepository(CustomerContext dbContext) : base(dbContext)
         {
         }
 
         public async Task<List<Entities.Customer>> GetAllCustomer()
         {
-            return await FindAll().ToListAsync(); ;
+            return await FindAll().ToListAsync();
         }
 
         public async Task<Entities.Customer> GetCustomerByUsernameAsync(string username) =>

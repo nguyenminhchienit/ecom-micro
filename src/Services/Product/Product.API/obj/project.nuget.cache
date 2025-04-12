@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4npCwAY7K35iSTFcEUETuUUzMxnL70PbxlHev5H5IejF9641rJuLny82NEf6XF0zgKIbcDP8Adk6wm/H6C+rOg==",
+  "dgSpecHash": "mRRqW7FK+gfTZKP3pfy+vP89Iwsm3CZjno/PvmABl5eEluFByr0+vOmZ32mOivtcHbHy3pSLzVGTKjj8NKdVNg==",
   "success": true,
   "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Product\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
