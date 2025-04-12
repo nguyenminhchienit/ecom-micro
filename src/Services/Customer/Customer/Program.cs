@@ -1,4 +1,5 @@
 using Common.Logging;
+using Customer.API.Controller;
 using Customer.API.Extensions;
 using Customer.API.Extentions;
 using Customer.API.Persistence;
@@ -18,11 +19,7 @@ try
 
     var app = builder.Build();
 
-    app.MapGet("/", () => "Welcome to Ecommerce Micoservices");
-    app.MapGet("/api/customers", async (ICustomerService customerServices) 
-        => await customerServices.GetAllCustomerAsync());
-    app.MapGet("/api/customers/{username}", async (string username, ICustomerService customerServices) 
-        => await customerServices.GetCustomerByUsernameAsync(username));
+    app.MapCustumerApi();
 
     app.UseInfrastructure();
 
