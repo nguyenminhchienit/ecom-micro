@@ -73,3 +73,4 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Basket\B
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Basket\Basket.API\bin\Debug\net6.0\Contract.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Basket\Basket.API\bin\Debug\net6.0\Infrastructure.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Basket\Basket.API\bin\Debug\net6.0\Shared.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Basket\Basket.API\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,11 +1,16 @@
-﻿namespace Basket.API.Extensions
+﻿using Basket.API.Repositories;
+using Basket.API.Repositories.Interfaces;
+using Contract.Common.Interfaces;
+using Infrastructure.Common;
+
+namespace Basket.API.Extensions
 {
     public static class ServiceExtensions
     {
-        /*public static IServiceCollection ConfigureServices(this IServiceCollection services) =>
+        public static IServiceCollection ConfigureServices(this IServiceCollection services) =>
             services.AddScoped<IBasketRepository, BasketRepository>()
-                .AddTransient<ISerializeService, SerializeService>()
-            ;*/
+                .AddTransient<ISerializerService, SerializerService>()
+            ;
 
         public static void ConfigureRedis(this IServiceCollection services, IConfiguration configuration)
         {

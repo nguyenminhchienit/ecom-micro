@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l3QP1MtFcfKqSIYkB7WK+LRRpKqTpOM6TUwB1Er5319/odZxEjk/Jd7k73lNpUNJMBUjlaIHJ8+GwDep+rPtYw==",
+  "dgSpecHash": "mXI6oqVfudl2AfMdx4lcpvczo4OAgbrnMpzE3FsdGugiRqT5FbI1vSai1XKmMB/G/j1MMsWdS1xwDC+0BD9dfQ==",
   "success": true,
   "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Customer\\Customer\\Customer.API.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\npgsql\\6.0.12\\npgsql.6.0.12.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.2\\npgsql.entityframeworkcore.postgresql.6.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
