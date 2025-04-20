@@ -8,12 +8,16 @@ namespace Customer.API.Repositories
 {
     public class CustomerRepository : RepositoryQueryBase<Entities.Customer, int, CustomerContext>, ICustomerRepository
     {
-        public CustomerRepository(CustomerContext dbContext) : base(dbContext)
+        private readonly ILogger<CustomerRepository> _logger;
+
+        public CustomerRepository(CustomerContext dbContext, IServiceProvider services) : base(dbContext)
         {
+            _logger = services.GetRequiredService<ILogger<CustomerRepository>>();
         }
 
         public async Task<List<Entities.Customer>> GetAllCustomer()
         {
+            _logger.LogInformation("Get all customers");
             return await FindAll().ToListAsync();
         }
 

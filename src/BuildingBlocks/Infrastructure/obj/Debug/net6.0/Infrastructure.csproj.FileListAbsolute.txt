@@ -14,3 +14,5 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\In
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Contract.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastr.15EFFBFE.Up2Date
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.pdb

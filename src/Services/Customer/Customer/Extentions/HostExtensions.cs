@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace Customer.API.Extentions
 {
@@ -17,6 +18,8 @@ namespace Customer.API.Extentions
                 try
                 {
                     logger.LogInformation("Migrating postgres database.");
+                    Log.Information("Welcome Migration");
+                    logger.LogWarning("TEST takisdev");
 
                     ExecuteMigrations(context);
                 }

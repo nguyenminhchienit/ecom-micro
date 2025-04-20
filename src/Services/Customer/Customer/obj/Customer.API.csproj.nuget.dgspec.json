@@ -437,7 +437,7 @@
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.12, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

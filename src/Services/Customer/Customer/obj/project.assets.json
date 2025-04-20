@@ -423,7 +423,7 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
-      "Npgsql/6.0.2": {
+      "Npgsql/6.0.12": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1619,10 +1619,10 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
-    "Npgsql/6.0.2": {
-      "sha512": "j/BJY/1lqtu5ssfGEi9D+qJ/3OMrK8ZdicsW4SldV49CahRVXVHldj636ucVcEqJPNDI0h+/PWJD7oHsQ/cFAQ==",
+    "Npgsql/6.0.12": {
+      "sha512": "bP7JxY0ugZcKZTcPgYlBRHa+TVnEdBIeV4Kj7K/SJEsCRPKikEhTFzn9goVNDFjACDMPTzcKrczpLCtIcISH0Q==",
       "type": "package",
-      "path": "npgsql/6.0.2",
+      "path": "npgsql/6.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1637,7 +1637,7 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.2.nupkg.sha512",
+        "npgsql.6.0.12.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
@@ -2190,7 +2190,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.2",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.6",
-      "Npgsql >= 6.0.2",
+      "Npgsql >= 6.0.12",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.2",
       "Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2276,7 +2276,7 @@
           },
           "Npgsql": {
             "target": "Package",
-            "version": "[6.0.2, )"
+            "version": "[6.0.12, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
@@ -2327,17 +2327,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Npgsql' 6.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

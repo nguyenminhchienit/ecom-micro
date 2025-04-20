@@ -9,7 +9,8 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.0",
-          "Contract": "1.0.0"
+          "Contract": "1.0.0",
+          "Shared": "1.0.0"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -163,6 +164,11 @@
         "runtime": {
           "Contract.dll": {}
         }
+      },
+      "Shared/1.0.0": {
+        "runtime": {
+          "Shared.dll": {}
+        }
       }
     }
   },
@@ -285,6 +291,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

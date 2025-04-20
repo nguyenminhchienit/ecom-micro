@@ -3,7 +3,7 @@ using Customer.API.Controller;
 using Customer.API.Extensions;
 using Customer.API.Extentions;
 using Customer.API.Persistence;
-using Customer.API.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,12 +17,17 @@ try
     // Add services to the container.
     builder.Services.AddInfrastructure(builder.Configuration);
 
+
     var app = builder.Build();
+
+    //app.MapGet("/", () => "Welcome to Ecommerce Micoservices"); hoac tom tat trong controller
 
     app.MapCustumerApi();
 
     app.UseInfrastructure();
 
+
+    Log.Information("Start Customer API up");
     app.MigrateDatabase<CustomerContext>()
          .Run();
 
