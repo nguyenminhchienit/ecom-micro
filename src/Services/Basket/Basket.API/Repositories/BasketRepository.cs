@@ -1,6 +1,7 @@
 ﻿using Basket.API.Entities;
 using Basket.API.Repositories.Interfaces;
 using Contract.Common.Interfaces;
+using Infrastructure.Common;
 using Microsoft.Extensions.Caching.Distributed;
 
 namespace Basket.API.Repositories
@@ -16,16 +17,20 @@ namespace Basket.API.Repositories
             _serializerService = serializerService;
         }
 
-        public async Task<Cart> GetBasketByUserName(string userName)
+        public async Task<Cart?> GetBasketByUserName(string userName)
         {
             var basket = await _redisCacheService.GetStringAsync(userName);
             return string.IsNullOrEmpty(basket) ? null :
                 _serializerService.Deserialize<Cart>(basket);
         }
 
-        public async Task<Cart> UpdateBasket(Cart basket)
+        public async Task<Cart> UpdateBasket(Cart basket, DistributedCacheEntryOptions options)
         {
-            await _redisCacheService.SetStringAsync(basket.UserName,
+            if (options != null)
+                await _redisCacheService.SetStringAsync(basket.UserName,
+                    _serializerService.Serialize(basket), options);
+            else
+                await _redisCacheService.SetStringAsync(basket.UserName,
                 _serializerService.Serialize(basket));
 
             return await GetBasketByUserName(basket.UserName);

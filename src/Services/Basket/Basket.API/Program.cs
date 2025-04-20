@@ -17,6 +17,11 @@ try
     builder.Host.AddAppConfigurations();
     // Add services to the container.
     builder.Services.ConfigureRedis(builder.Configuration);
+    builder.Services.ConfigureServices();
+
+    builder.Services.Configure<RouteOptions>(options
+         => options.LowercaseUrls = true);
+
 
     builder.Services.AddControllers();
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
