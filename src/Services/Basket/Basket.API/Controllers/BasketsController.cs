@@ -18,7 +18,7 @@ namespace Basket.API.Controllers
             _basketRepository = basketRepository ?? throw new ArgumentNullException(nameof(basketRepository));
         }
 
-        [HttpGet("{userName}", Name = "GetBasket")]
+        [HttpGet("{username}", Name = "GetBasket")]
         [ProducesResponseType(typeof(Cart), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<Cart>> GetBasket([Required] string username)
         {
