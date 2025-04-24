@@ -20,10 +20,11 @@ namespace Basket.API.Controllers
 
         [HttpGet("{userName}", Name = "GetBasket")]
         [ProducesResponseType(typeof(Cart), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Cart>> GetBasket([Required] string userName)
+        public async Task<ActionResult<Cart>> GetBasket([Required] string username)
         {
-            var result = await _basketRepository.GetBasketByUserName(userName);
-            return Ok(result ?? new Cart(userName));
+            var result = await _basketRepository.GetBasketByUserName(username);
+
+            return Ok(result ?? new Cart(username));
         }
 
         [HttpPost(Name = "UpdateBasket")]
@@ -31,11 +32,8 @@ namespace Basket.API.Controllers
         public async Task<ActionResult<Cart>> UpdateBasket([FromBody] Cart basket)
         {
             var options = new DistributedCacheEntryOptions()
-                //set the absolute expiration time.
-                .SetAbsoluteExpiration(DateTime.UtcNow.AddMinutes(10))
-                //a cached object will be expired if it not being requested for a defined amount of time period.
-                //Sliding Expiration should always be set lower than the absolute expiration.
-                .SetSlidingExpiration(TimeSpan.FromMinutes(2));
+             .SetAbsoluteExpiration(DateTime.UtcNow.AddHours(10))
+             .SetSlidingExpiration(TimeSpan.FromMinutes(10));
 
             var result = await _basketRepository.UpdateBasket(basket, options);
             return Ok(result);
@@ -43,10 +41,10 @@ namespace Basket.API.Controllers
 
         [HttpDelete("{userName}", Name = "DeleteBasket")]
         [ProducesResponseType(typeof(void), (int)HttpStatusCode.Accepted)]
-        public async Task<IActionResult> DeleteBasket([Required] string userName)
+        public async Task<ActionResult<bool>> DeleteBasket([Required] string username)
         {
-            await _basketRepository.DeleteBasketFromUserName(userName);
-            return Accepted();
+            var result = await _basketRepository.DeleteBasketFromUserName(username);
+            return Ok(result);
         }
     }
 }
