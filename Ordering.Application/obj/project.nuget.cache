@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "LWdvhjQXJTZIJhvTjHb0Bwapz6ncp2DIyxBFITCIhvQRe3Kge0pDUOUnkP7ip1fL+dctA4Q0wQhvixCD6LjImA==",
+  "dgSpecHash": "BVnVijphh+Lo9V0+MTCmtGx2URCehL/deL9v+LskCQzPism0ypDBWeMmssksWO7KAvM+pxKGFD9FrniRsSZw0g==",
   "success": true,
   "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\11.0.3\\fluentvalidation.11.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.3\\fluentvalidation.dependencyinjectionextensions.11.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",

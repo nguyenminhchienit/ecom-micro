@@ -1,0 +1,16 @@
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.deps.json
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\bin\Debug\net6.0\Contract.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\bin\Debug\net6.0\Contract.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.AssemblyReference.cache
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfoInputs.cache
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfo.cs
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.sourcelink.json
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.5B2A0ED2.Up2Date
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\refint\Ordering.Domain.dll
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\Ordering.Domain\obj\Debug\net6.0\ref\Ordering.Domain.dll

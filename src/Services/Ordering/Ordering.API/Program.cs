@@ -1,5 +1,6 @@
 using Common.Logging;
 using Ordering.API.Extensions;
+using Ordering.Infrastructure;
 using Serilog;
 
 
@@ -18,6 +19,8 @@ try
     builder.Host.AddAppConfigurations();
     // Add services to the container.
     builder.Services.ConfigureServices();
+
+    builder.Services.AddInfrastructureServices(builder.Configuration);
 
     builder.Services.Configure<RouteOptions>(options
          => options.LowercaseUrls = true);

@@ -74,3 +74,4 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Customer
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Customer\Customer\bin\Debug\net6.0\Contract.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Customer\Customer\bin\Debug\net6.0\Infrastructure.pdb
 E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Customer\Customer\bin\Debug\net6.0\Shared.pdb
+E:\Project\ecommerce_microservices\ecommerce_microservices\src\Services\Customer\Customer\bin\Debug\net6.0\Newtonsoft.Json.dll
