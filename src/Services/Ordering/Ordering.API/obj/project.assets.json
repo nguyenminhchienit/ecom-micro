@@ -3539,18 +3539,18 @@
     },
     "Ordering.Application/1.0.0": {
       "type": "project",
-      "path": "../../../../Ordering.Application/Ordering.Application.csproj",
-      "msbuildProject": "../../../../Ordering.Application/Ordering.Application.csproj"
+      "path": "../Ordering.Application/Ordering.Application.csproj",
+      "msbuildProject": "../Ordering.Application/Ordering.Application.csproj"
     },
     "Ordering.Domain/1.0.0": {
       "type": "project",
-      "path": "../../../../Ordering.Domain/Ordering.Domain.csproj",
-      "msbuildProject": "../../../../Ordering.Domain/Ordering.Domain.csproj"
+      "path": "../Ordering.Domain/Ordering.Domain.csproj",
+      "msbuildProject": "../Ordering.Domain/Ordering.Domain.csproj"
     },
     "Ordering.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../../../../Ordering.Infrastructure/Ordering.Infrastructure.csproj",
-      "msbuildProject": "../../../../Ordering.Infrastructure/Ordering.Infrastructure.csproj"
+      "path": "../Ordering.Infrastructure/Ordering.Infrastructure.csproj",
+      "msbuildProject": "../Ordering.Infrastructure/Ordering.Infrastructure.csproj"
     },
     "Shared/1.0.0": {
       "type": "project",
@@ -3605,12 +3605,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\Ordering.Application\\Ordering.Application.csproj": {
-              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\Ordering.Application\\Ordering.Application.csproj"
-            },
-            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
-              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
-            },
             "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
               "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
@@ -3619,6 +3613,12 @@
             },
             "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+            },
+            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+            },
+            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
             }
           }
         }
