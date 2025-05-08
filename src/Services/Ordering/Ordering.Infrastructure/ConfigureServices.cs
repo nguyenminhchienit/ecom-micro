@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Contract.Common.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Ordering.Application.Common.Interfaces;
 using Ordering.Infrastructure.Persistence;
+using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Infrastructure
 {
@@ -14,6 +17,8 @@ namespace Ordering.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionString"),
                     builder => builder.MigrationsAssembly(typeof(OrderContext).Assembly.FullName));
             });
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }

@@ -1378,6 +1378,7 @@
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Common.Logging": "1.0.0",
+          "Contract": "1.0.0",
           "EventBus.Messages": "1.0.0",
           "FluentValidation": "11.0.3",
           "FluentValidation.DependencyInjectionExtensions": "11.0.3",

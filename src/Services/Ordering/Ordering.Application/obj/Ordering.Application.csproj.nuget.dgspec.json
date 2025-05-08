@@ -478,6 +478,9 @@
               "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
                 "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
+              "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
+                "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj"
+              },
               "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
                 "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
               },

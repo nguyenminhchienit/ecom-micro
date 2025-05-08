@@ -1981,6 +1981,7 @@
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Common.Logging >= 1.0.0",
+      "Contract >= 1.0.0",
       "EventBus.Messages >= 1.0.0",
       "FluentValidation >= 11.0.3",
       "FluentValidation.DependencyInjectionExtensions >= 11.0.3",
@@ -2026,6 +2027,9 @@
           "projectReferences": {
             "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
               "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            },
+            "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
+              "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Contract\\Contract.csproj"
             },
             "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
               "projectPath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"

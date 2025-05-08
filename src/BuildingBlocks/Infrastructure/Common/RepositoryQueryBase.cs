@@ -5,7 +5,13 @@ using System.Linq.Expressions;
 
 namespace Infrastructure.Common
 {
-    public class RepositoryQueryBase<T, K, TContext> : IRepositoryQueryBase<T, K, TContext>
+
+    public class RepositoryQueryBase<T, K>
+    where T : EntityBase<K>
+    {
+
+    }
+    public class RepositoryQueryBase<T, K, TContext> : RepositoryQueryBase<T, K>, IRepositoryQueryBase<T, K, TContext>
         where T : EntityBase<K> where TContext : DbContext
     {
         private readonly TContext _dbContext;

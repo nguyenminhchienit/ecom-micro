@@ -1,5 +1,6 @@
 using Common.Logging;
 using Ordering.API.Extensions;
+using Ordering.Application;
 using Ordering.Infrastructure;
 using Serilog;
 
@@ -20,6 +21,7 @@ try
     // Add services to the container.
     builder.Services.ConfigureServices();
 
+    builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices(builder.Configuration);
 
     builder.Services.Configure<RouteOptions>(options
