@@ -765,7 +765,10 @@
           "Serilog.Formatting.Compact": "3.0.0"
         },
         "runtime": {
-          "Common.Logging.dll": {}
+          "Common.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Contract/1.0.0": {
@@ -773,12 +776,18 @@
           "Microsoft.EntityFrameworkCore": "6.0.6"
         },
         "runtime": {
-          "Contract.dll": {}
+          "Contract.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EventBus.Messages/1.0.0": {
         "runtime": {
-          "EventBus.Messages.dll": {}
+          "EventBus.Messages.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Infrastructure/1.0.0": {
@@ -789,7 +798,10 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Infrastructure.dll": {}
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Ordering.Application/1.0.0": {
@@ -807,7 +819,10 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Ordering.Application.dll": {}
+          "Ordering.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Ordering.Domain/1.0.0": {
@@ -815,12 +830,18 @@
           "Contract": "1.0.0"
         },
         "runtime": {
-          "Ordering.Domain.dll": {}
+          "Ordering.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

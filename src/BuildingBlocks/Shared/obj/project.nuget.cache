@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUMwrSWes4QcSSi/XXKZI0kyV+xG5vh9bFWIUYo7Z31LgSvYFSl8rCcHr3VhqtIrTVlTHaZKJkXotjqMmbIMwQ==",
+  "dgSpecHash": "Q7ld1cuogPI=",
   "success": true,
-  "projectFilePath": "E:\\Project\\ecommerce_microservices\\ecommerce_microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

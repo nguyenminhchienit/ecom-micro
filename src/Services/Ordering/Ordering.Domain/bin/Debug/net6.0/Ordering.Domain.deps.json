@@ -148,7 +148,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.2"
         },
         "runtime": {
-          "Contract.dll": {}
+          "Contract.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
