@@ -25,5 +25,15 @@
       }
     ],
     "EndpointName": "GetOrder"
+  },
+  {
+    "ContainingType": "Ordering.API.Controllers.OrdersController",
+    "Method": "TestEmail",
+    "RelativePath": "api/v1/orders/test-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -34,3 +34,5 @@ D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\ne
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.dll
+D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.pdb

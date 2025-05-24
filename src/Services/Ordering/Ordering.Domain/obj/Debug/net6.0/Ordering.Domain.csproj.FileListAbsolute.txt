@@ -46,3 +46,5 @@ D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debu
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\refint\Ordering.Domain.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\ref\Ordering.Domain.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb

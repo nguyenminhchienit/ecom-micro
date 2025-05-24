@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Common
 {
-    public class RepositoryBaseAsyncAsync<T, K, TContext> : RepositoryQueryBase<T,K,TContext>,IRepositoryBaseAsync<T, K, TContext> where T : EntityBase<K>
+    public class RepositoryBaseAsyncAsync<T, K, TContext> : RepositoryQueryBase<T,K,TContext>,IRepositoryBaseAsync<T, K, TContext> 
+        where T : EntityBase<K>
         where TContext : DbContext
     {
         private readonly TContext _dbContext;

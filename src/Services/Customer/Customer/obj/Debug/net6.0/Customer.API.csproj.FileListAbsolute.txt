@@ -151,3 +151,4 @@ D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.0\Customer.API.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.0\Customer.API.genruntimeconfig.cache
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.0\ref\Customer.API.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

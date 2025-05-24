@@ -1,4 +1,6 @@
 ﻿using Contract.Common.Interfaces;
+using Contract.Services;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,7 +21,7 @@ namespace Ordering.Infrastructure
             });
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+            services.AddScoped(typeof(ISmtpEmailService), typeof(SmtpEmailService));
             return services;
         }
     }

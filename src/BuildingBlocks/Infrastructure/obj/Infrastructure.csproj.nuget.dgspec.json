@@ -4,14 +4,14 @@
     "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
+    "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj",
-        "projectName": "Contract",
-        "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj",
+        "projectUniqueName": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\obj\\",
+        "outputPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
@@ -80,6 +92,81 @@
               "version": "[6.0.36, 6.0.36]"
             }
           ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj",
+        "projectName": "Contract",
+        "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -117,6 +204,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
               "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
                 "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj"
               },
@@ -146,6 +236,14 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
@@ -162,20 +260,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -230,6 +314,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

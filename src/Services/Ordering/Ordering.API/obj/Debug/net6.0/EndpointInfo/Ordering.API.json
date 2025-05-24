@@ -53,6 +53,18 @@
           }
         }
       }
+    },
+    "/api/v1/orders/test-email": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

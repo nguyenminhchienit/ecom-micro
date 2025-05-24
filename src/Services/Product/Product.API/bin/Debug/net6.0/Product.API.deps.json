@@ -528,7 +528,10 @@
           "Serilog.Formatting.Compact": "3.0.0"
         },
         "runtime": {
-          "Common.Logging.dll": {}
+          "Common.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Contract/1.0.0": {
@@ -536,7 +539,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.2"
         },
         "runtime": {
-          "Contract.dll": {}
+          "Contract.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Infrastructure/1.0.0": {
@@ -547,12 +553,18 @@
           "Shared": "1.0.0"
         },
         "runtime": {
-          "Infrastructure.dll": {}
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Shared/1.0.0": {
         "runtime": {
-          "Shared.dll": {}
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

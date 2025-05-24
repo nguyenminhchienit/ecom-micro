@@ -22,3 +22,4 @@ D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Shared\obj\Debug\net6.0\Sha
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Shared\obj\Debug\net6.0\refint\Shared.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Shared\obj\Debug\net6.0\ref\Shared.dll
+D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
