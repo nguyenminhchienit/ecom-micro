@@ -17,6 +17,7 @@ namespace Ordering.Application.Common.Behaviors
             _logger = logger;
         }
 
+        //Calc performance of apllycation or website than 5000 milisecondrd so push notification 
         public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             _timer.Start();
@@ -25,7 +26,7 @@ namespace Ordering.Application.Common.Behaviors
 
             var elapsedMilliseconds = _timer.ElapsedMilliseconds;
 
-            if (elapsedMilliseconds <= 500) return response;
+            if (elapsedMilliseconds <= 5000) return response;
 
             var requestName = typeof(TRequest).Name;
             _logger.LogWarning("Application Long Running Request: {Name} ({ElapsedMilliseconds} milliseconds) {@Request}",

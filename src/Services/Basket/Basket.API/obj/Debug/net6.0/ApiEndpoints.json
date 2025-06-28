@@ -23,18 +23,19 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "UpdateBasket"
   },
   {
     "ContainingType": "Basket.API.Controllers.BasketsController",
     "Method": "GetBasket",
-    "RelativePath": "api/baskets/{userName}",
+    "RelativePath": "api/baskets/{username}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userName",
+        "Name": "username",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -49,7 +50,8 @@
         ],
         "StatusCode": 200
       }
-    ]
+    ],
+    "EndpointName": "GetBasket"
   },
   {
     "ContainingType": "Basket.API.Controllers.BasketsController",
@@ -60,7 +62,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userName",
+        "Name": "username",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -70,6 +72,38 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 202
+      }
+    ],
+    "EndpointName": "DeleteBasket"
+  },
+  {
+    "ContainingType": "Basket.API.Controllers.BasketsController",
+    "Method": "Checkout",
+    "RelativePath": "api/baskets/checkout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketBody",
+        "Type": "Basket.API.Entities.BasketCheckout",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 202
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   }

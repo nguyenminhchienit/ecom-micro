@@ -87,6 +87,7 @@ D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\AutoMapper.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Humanizer.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\MailKit.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -105,9 +106,12 @@ D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\MimeKit.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\MySqlConnector.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\NETCore.MailKit.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Serilog.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll

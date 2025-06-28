@@ -19,8 +19,10 @@ E:\Project\ecommerce_microservices\ecommerce_microservices\src\BuildingBlocks\In
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Contract.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.dll
+D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Contract.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
@@ -34,5 +36,3 @@ D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\ne
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
-D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.dll
-D:\Coding\Microservice\ecom-micro\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.pdb

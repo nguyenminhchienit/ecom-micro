@@ -21,6 +21,8 @@ try
     // Add services to the container.
     builder.Services.AddConfigureServices(builder.Configuration);
 
+    builder.Services.ConfigureMasstransitRabbitMq();
+
     builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices(builder.Configuration);
 

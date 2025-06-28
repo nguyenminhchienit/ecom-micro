@@ -78,20 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -176,14 +162,14 @@
         }
       }
     },
-    "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+    "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectUniqueName": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\EventBus.Messages.csproj",
         "projectName": "EventBus.Messages",
-        "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\EventBus.Messages.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\obj\\",
+        "outputPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -232,20 +218,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -453,8 +425,8 @@
               "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
                 "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj"
               },
-              "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
-                "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\EventBus\\EventBus.Messages\\EventBus.Messages.csproj"
               },
               "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"

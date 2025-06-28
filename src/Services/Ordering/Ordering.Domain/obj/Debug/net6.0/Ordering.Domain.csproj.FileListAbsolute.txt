@@ -34,7 +34,9 @@ D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debu
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contract.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contract.pdb
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.AssemblyReference.cache
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfoInputs.cache
@@ -46,5 +48,3 @@ D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debu
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\refint\Ordering.Domain.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\ref\Ordering.Domain.dll
-D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
-D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb
