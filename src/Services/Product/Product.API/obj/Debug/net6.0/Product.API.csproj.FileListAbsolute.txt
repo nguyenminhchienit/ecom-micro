@@ -157,3 +157,5 @@ D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\obj\Debug\net
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\obj\Debug\net6.0\Product.API.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\obj\Debug\net6.0\Product.API.genruntimeconfig.cache
 D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\obj\Debug\net6.0\ref\Product.API.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\MediatR.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Product\Product.API\bin\Debug\net6.0\MediatR.Contracts.dll

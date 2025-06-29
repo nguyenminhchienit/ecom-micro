@@ -166,3 +166,5 @@ D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\obj\Debug\net6.
 D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\bin\Debug\net6.0\MediatR.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Basket\Basket.API\bin\Debug\net6.0\MediatR.Contracts.dll

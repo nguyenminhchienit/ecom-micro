@@ -25,6 +25,7 @@ namespace Ordering.Application.Featutes.V1.Orders.Commands.DeleteOrder
 
             await _orderRepository.DeleteAsync(orderEntity);
             await _orderRepository.SaveChangesAsync();
+            orderEntity.DeletedOrder();
 
             _logger.Information($"Order {orderEntity.Id} was successfully deleted.");
 

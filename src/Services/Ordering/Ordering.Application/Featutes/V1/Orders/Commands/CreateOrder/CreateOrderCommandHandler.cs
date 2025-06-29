@@ -34,9 +34,14 @@ namespace Ordering.Application.Featutes.V1.Orders.Commands.CreateOrder
         {
             _logger.Information($"BEGIN: {MethodName} - Username: {request.UserName}");
             var orderEntity = _mapper.Map<Order>(request);
+
             orderEntity.Status = EOrderStatus.New;
+
             var addedOrder = await _orderRepository.CreateOrderAsync(orderEntity);
             await _orderRepository.SaveChangesAsync();
+
+            orderEntity.AddedOrder();
+
             _logger.Information($"Order {addedOrder.Id} is successfully created.");
 
             await SendEmailAsync(addedOrder, cancellationToken);
