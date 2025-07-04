@@ -37,17 +37,18 @@ namespace Ordering.Application.Featutes.V1.Orders.Commands.CreateOrder
 
             orderEntity.Status = EOrderStatus.New;
 
-            var addedOrder = await _orderRepository.CreateOrderAsync(orderEntity);
-            await _orderRepository.SaveChangesAsync();
+            _orderRepository.Create(orderEntity);
 
             orderEntity.AddedOrder();
 
-            _logger.Information($"Order {addedOrder.Id} is successfully created.");
+            await _orderRepository.SaveChangesAsync();           
 
-            await SendEmailAsync(addedOrder, cancellationToken);
+            _logger.Information($"Order {orderEntity.Id} is successfully created.");
+
+            await SendEmailAsync(orderEntity, cancellationToken);
 
             _logger.Information($"END: {MethodName} - Username: {request.UserName}");
-            return new ApiSuccessResult<long>(addedOrder.Id);
+            return new ApiSuccessResult<long>(orderEntity.Id);
         }
 
         private async Task SendEmailAsync(Order order, CancellationToken cancellationToken)

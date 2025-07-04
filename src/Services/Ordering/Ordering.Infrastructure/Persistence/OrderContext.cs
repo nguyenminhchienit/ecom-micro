@@ -46,7 +46,7 @@ namespace Ordering.Infrastructure.Persistence
 
         public async override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
-            SetBaseEventsBeforeSaveChanges(); // call func
+            SetBaseEventsBeforeSaveChanges(); // call func to set BaseEvents
 
             var modified = ChangeTracker.Entries()
                 .Where(e => e.State == EntityState.Modified ||
