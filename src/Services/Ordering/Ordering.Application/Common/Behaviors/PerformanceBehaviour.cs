@@ -21,7 +21,7 @@ namespace Ordering.Application.Common.Behaviors
         public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             _timer.Start();
-            var response = await next();
+            var response = await next(); //Middleware continue
             _timer.Stop();
 
             var elapsedMilliseconds = _timer.ElapsedMilliseconds;

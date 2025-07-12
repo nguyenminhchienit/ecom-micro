@@ -1,4 +1,5 @@
-﻿using Contract.Domain.Interfaces;
+﻿using Contract.Common.Interfaces;
+using Contract.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Contract.Domain
 {
-    public abstract class EntityAuditBase<T> : EntityBase<T>, IAuditable
+    public abstract class EntityAuditBase<T> : EntityBase<T>, IEntityAuditBase<T>
     {
         public DateTimeOffset CreatedDate { get; set; }
 

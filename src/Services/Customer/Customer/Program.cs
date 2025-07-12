@@ -4,7 +4,6 @@ using Customer.API.Controller;
 using Customer.API.Extensions;
 using Customer.API.Extentions;
 using Customer.API.Persistence;
-using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);

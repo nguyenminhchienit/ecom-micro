@@ -7,7 +7,7 @@ namespace Infrastructure.Common
 {
 
     public class RepositoryQueryBase<T, K>
-    where T : EntityBase<K>
+    where T : EntityBase<K>  
     {
 
     }

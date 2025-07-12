@@ -39,7 +39,7 @@ namespace Ordering.Application.Featutes.V1.Orders.Commands.CreateOrder
 
             _orderRepository.Create(orderEntity);
 
-            orderEntity.AddedOrder();
+            orderEntity.AddedOrder(); // publish event when ordered
 
             await _orderRepository.SaveChangesAsync();           
 
