@@ -295,6 +295,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -426,6 +430,9 @@
               "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj": {
                 "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Contract\\Contract.csproj"
               },
+              "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+              },
               "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
                 "projectPath": "D:\\Coding\\Microservice\\ecom-micro\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               },
@@ -458,10 +465,6 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.2.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

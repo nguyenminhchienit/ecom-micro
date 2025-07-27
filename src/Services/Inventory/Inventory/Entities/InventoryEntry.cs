@@ -1,5 +1,6 @@
 ﻿using Inventory.API.Entities.Abstraction;
 using Inventory.API.Extensions.Attributes;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using Shared.Enums.Inventory;
 
@@ -14,6 +15,11 @@ namespace Inventory.API.Entities
             DocumentType = EDocumentType.Purchase;
             DocumentNo = Guid.NewGuid().ToString();
             ExternalDocumentNo = Guid.NewGuid().ToString();
+        }
+
+        public InventoryEntry(ObjectId id)
+        {
+            Id = id;
         }
 
         [BsonElement("documentType")]

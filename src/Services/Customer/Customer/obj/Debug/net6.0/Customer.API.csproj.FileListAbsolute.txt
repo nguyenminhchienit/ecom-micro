@@ -158,3 +158,9 @@ D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\obj\Debug\net6.0\ref\Customer.API.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\MediatR.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\DnsClient.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\SharpCompress.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\Snappier.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Customer\Customer\bin\Debug\net6.0\ZstdSharp.dll

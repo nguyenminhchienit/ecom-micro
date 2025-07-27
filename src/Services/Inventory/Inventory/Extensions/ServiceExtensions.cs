@@ -1,6 +1,8 @@
 ﻿using Contract.Common.Interfaces;
 using Infrastructure.Common;
 using Infrastructure.Extensions;
+using Inventory.API.Services;
+using Inventory.API.Services.Interfaces;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MongoDB.Driver;
 using Shared.Configurations;
@@ -25,6 +27,8 @@ namespace Inventory.API.Extensions
             services.AddSwaggerGen();
 
             services.AddAutoMapper(cfg => cfg.AddProfile(new MappingProfile()));
+
+            services.AddScoped<IInventoryService, InventoryService>();
 
             services.ConfigureMongoDbClient();
             return services;

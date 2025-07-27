@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScheduledJob.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a6fa16d3b99b58e2749286b6009fd9fb7bff69a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f98e5ce1b39f20ac7e5e20e80418b85c0ddf9f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScheduledJob.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScheduledJob.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

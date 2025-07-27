@@ -245,3 +245,9 @@ D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\n
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\System.Threading.RateLimiting.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.dll
 D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\EventBus.Messages.pdb
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\DnsClient.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\SharpCompress.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Snappier.dll
+D:\Coding\Microservice\ecom-micro\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\ZstdSharp.dll

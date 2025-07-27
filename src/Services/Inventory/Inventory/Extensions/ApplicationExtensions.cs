@@ -9,7 +9,7 @@
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json",
-                 "Swagger Customer Minimal API v1");
+                 "Swagger Inventory API v1");
             });
 
             app.UseRouting();
