@@ -6,7 +6,11 @@ namespace Shared.DTOs.Inventory
     {
         public EDocumentType DocumentType => EDocumentType.Purchase;
 
-        public string ItemNo { get; set; }
+        private string ItemNo;
+
+        public string GetItemNo() => ItemNo;
+
+        public void SetItemNo(string itemNo) => ItemNo = itemNo;
 
         public int Quantity { get; set; }
 

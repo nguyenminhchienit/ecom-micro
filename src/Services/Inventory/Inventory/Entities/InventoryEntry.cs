@@ -6,7 +6,7 @@ using Shared.Enums.Inventory;
 
 namespace Inventory.API.Entities
 {
-    [BsonCollection("InventoryEntries")]
+    [BsonCollection("InventoryEntry")]
     public class InventoryEntry : MongoEntity
     {
 
