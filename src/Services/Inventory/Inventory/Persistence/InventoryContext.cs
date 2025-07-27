@@ -2,15 +2,16 @@
 using Inventory.API.Extensions;
 using Inventory.API.Persistence.Interfaces;
 using MongoDB.Driver;
+using Shared.Configurations;
 
 namespace Inventory.API.Persistence
 {
     public class InventoryContext : IInventoryContext
     {
-        private readonly DatabaseSettings _settings;
+        private readonly MongoDbSetting _settings;
         private readonly IMongoClient _mongoClient;
 
-        public InventoryContext(IMongoClient mongoClient, DatabaseSettings settings)
+        public InventoryContext(IMongoClient mongoClient, MongoDbSetting settings)
         {
             _settings = settings;
             _mongoClient = mongoClient;

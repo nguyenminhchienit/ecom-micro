@@ -1,9 +1,7 @@
-﻿using Contract.Domain;
-using MongoDB.Bson;
+﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using System;
 
-namespace Inventory.API.Entities.Abstraction
+namespace Contract.Domain
 {
     public abstract class MongoEntity : EntityBase<ObjectId> 
     { 

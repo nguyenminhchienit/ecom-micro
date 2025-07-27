@@ -1,4 +1,4 @@
-﻿namespace Inventory.API.Extensions.Attributes
+﻿namespace Infrastructure.Extensions.Attributes
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class BsonCollectionAttribute : Attribute

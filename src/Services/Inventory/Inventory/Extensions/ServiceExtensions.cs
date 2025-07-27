@@ -1,9 +1,6 @@
-﻿using Contract.Common.Interfaces;
-using Infrastructure.Common;
-using Infrastructure.Extensions;
+﻿using Infrastructure.Extensions;
 using Inventory.API.Services;
 using Inventory.API.Services.Interfaces;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MongoDB.Driver;
 using Shared.Configurations;
 
@@ -14,7 +11,7 @@ namespace Inventory.API.Extensions
 
         public static IServiceCollection AddConfigureServices(this IServiceCollection services, IConfiguration configuration)
         {
-            var databaseSetting = configuration.GetSection(nameof(DatabaseSettings)).Get<DatabaseSettings>();
+            var databaseSetting = configuration.GetSection(nameof(MongoDbSetting)).Get<MongoDbSetting>();
             services.AddSingleton(databaseSetting);
 
             return services;
@@ -36,7 +33,7 @@ namespace Inventory.API.Extensions
 
         private static string getMongoConnectionString(this IServiceCollection services)
         {
-            var settings = services.GetOptions<DatabaseSettings>(nameof(DatabaseSettings));
+            var settings = services.GetOptions<MongoDbSetting>(nameof(MongoDbSetting));
             if (settings == null || string.IsNullOrEmpty(settings.ConnectionString))
                 throw new ArgumentNullException("DatabaseSettings is not configured");
 

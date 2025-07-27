@@ -1,5 +1,6 @@
 ﻿using Inventory.API.Persistence;
 using MongoDB.Driver;
+using Shared.Configurations;
 
 namespace Inventory.API.Extensions
 {
@@ -9,7 +10,7 @@ namespace Inventory.API.Extensions
         {
             using var scope = host.Services.CreateScope();
             var services = scope.ServiceProvider;
-            var settings = services.GetService<DatabaseSettings>();
+            var settings = services.GetService<MongoDbSetting>();
             var mongoClient = services.GetRequiredService<IMongoClient>();
             new InventoryContextSeed()
                 .SeedDataAsync(mongoClient, settings)

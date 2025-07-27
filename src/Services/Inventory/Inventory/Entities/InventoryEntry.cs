@@ -1,5 +1,5 @@
-﻿using Inventory.API.Entities.Abstraction;
-using Inventory.API.Extensions.Attributes;
+﻿using Contract.Domain;
+using Infrastructure.Extensions.Attributes;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using Shared.Enums.Inventory;
