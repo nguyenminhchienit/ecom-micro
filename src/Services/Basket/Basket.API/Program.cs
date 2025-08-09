@@ -21,6 +21,7 @@ try
     builder.Services.AddAutoMapper(cfg => cfg.AddProfile(new MappingProfile()));
     // Add services to the container.
     builder.Services.ConfigureRedis(builder.Configuration);
+    builder.Services.ConfigureGrpcServices();
     builder.Services.ConfigureServices();
 
     builder.Services.ConfigureMasstransitRabbitMq();

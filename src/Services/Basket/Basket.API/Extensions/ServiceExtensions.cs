@@ -1,9 +1,11 @@
-﻿using Basket.API.Repositories;
+﻿using Basket.API.GrpcServices;
+using Basket.API.Repositories;
 using Basket.API.Repositories.Interfaces;
 using Contract.Common.Interfaces;
 using EventBus.Messages.IntegrationEvents.Interfaces;
 using Infrastructure.Common;
 using Infrastructure.Extensions;
+using Inventory.Grpc;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Shared.Configurations;
@@ -19,7 +21,11 @@ namespace Basket.API.Extensions
 
             var redisSetting = configuration.GetSection(nameof(CacheSettings)).Get<CacheSettings>();
             services.AddSingleton(redisSetting);
+
+            var grpcSetting = configuration.GetSection(nameof(GrpcSettings)).Get<GrpcSettings>();
+            services.AddSingleton(grpcSetting);
             return services;
+
         }
         public static IServiceCollection ConfigureServices(this IServiceCollection services) =>
             services.AddScoped<IBasketRepository, BasketRepository>()
@@ -38,6 +44,17 @@ namespace Basket.API.Extensions
                 options.Configuration = redisSetting.ConnectionString;
             });
         }
+
+
+        public static IServiceCollection ConfigureGrpcServices(this IServiceCollection services)
+        {
+            var settings = services.GetOptions<GrpcSettings>(nameof(GrpcSettings));
+            services.AddGrpcClient<InventoryService.InventoryServiceClient>(x => x.Address = new Uri(settings.StockUrl));
+            services.AddScoped<StockGrpcService>();
+
+            return services;
+        }
+
 
         public static void ConfigureMasstransitRabbitMq(this IServiceCollection services)
         {
