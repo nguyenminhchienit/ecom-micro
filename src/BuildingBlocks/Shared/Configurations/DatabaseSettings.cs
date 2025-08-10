@@ -8,7 +8,7 @@ namespace Shared.Configurations
 {
     public class DatabaseSettings
     {
-        public string DBProvider {  get; set; }
-        public string ConnectionString { get; set; }
+        public string DBProvider { get; set; } = string.Empty;
+        public string ConnectionString { get; set; } = string.Empty;
     }
 }
